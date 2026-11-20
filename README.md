@@ -23,7 +23,7 @@ python triLAD.py \
   --output_dir runs/adhoc
 ```
 
-`--csv_path` is the test/attack series. `--normalize_fit_csv` is the training/normal series: it fits the scaler when normalization is on, and it is the default source of normal few-shot windows. The default model is `qwen/qwen3-vl-30b-a3b-instruct`. Anomaly-pool windows are kept out of inference and out of the metrics. Results are written under `--output_dir`.
+`--csv_path` is the target data for evaluation. `--normalize_fit_csv` is the training set. The default model is `qwen/qwen3-vl-30b-a3b-instruct`. Results are written under `--output_dir`.
 
 ## Verifiable outputs
 
