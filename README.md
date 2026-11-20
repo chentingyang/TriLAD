@@ -66,13 +66,6 @@ python scripts/champion.py smd show
 python scripts/champion.py psm show
 ```
 
-| Dataset | Config symbols |
-|---------|----------------|
-| SWaT | `SWAT_CHAMPION_OVERRIDES`, `SWAT_CHAMPION_AGGREGATION_PER_METRIC` |
-| MSL | `MSL_CHAMPION_OVERRIDES`, `MSL_CHAMPION_PRECISE_HIT_POST`, `MSL_CHAMPION_AGGREGATION_PER_METRIC` |
-| SMD | `SMD_LOCKED_STACK`, `SMD_PER_ENTITY` |
-| PSM | `PSM_CHAMPION_OVERRIDES`, `PSM_CHAMPION_AGGREGATION_PER_METRIC` |
-
 `show` prints those blocks. `run` starts a fresh API inference through `triLAD.py` and then scores offline. `score` re-scores an existing run and does not call the API.
 
 ```bash
