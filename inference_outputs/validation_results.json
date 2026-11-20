@@ -1,0 +1,209 @@
+{
+  "updated_at": "2026-08-26T03:23:54.208450+00:00",
+  "outputs_root": "inference_outputs",
+  "write_preds": true,
+  "results": [
+    {
+      "dataset": "SWaT",
+      "run_dir": "inference_outputs/swat",
+      "n_points": 449919,
+      "n_windows": 898,
+      "metrics": {
+        "point": {
+          "precision": 0.9528941421866852,
+          "recall": 0.7030265279202697,
+          "f1": 0.8091086395023984
+        },
+        "pa": {
+          "precision": 0.9660368519675203,
+          "recall": 0.906712589769896,
+          "f1": 0.9354350948816815
+        },
+        "affi": {
+          "precision": 0.6651163760302878,
+          "recall": 0.9862324337826668,
+          "f1": 0.794452799291214
+        }
+      },
+      "avg_f1": 0.8463321778917647
+    },
+    {
+      "dataset": "PSM",
+      "run_dir": "inference_outputs/psm",
+      "n_points": 87841,
+      "n_windows": 877,
+      "metrics": {
+        "point": {
+          "precision": 0.8798964776067026,
+          "recall": 0.822730814978877,
+          "f1": 0.8503539785493238
+        },
+        "pa": {
+          "precision": 0.9926107351903358,
+          "recall": 0.9807226939009884,
+          "f1": 0.9866309057148751
+        },
+        "affi": {
+          "precision": 0.6241406811611075,
+          "recall": 0.8860802079622443,
+          "f1": 0.7323944577166551
+        }
+      },
+      "avg_f1": 0.8564597806602846
+    },
+    {
+      "dataset": "MSL",
+      "run_dir": "inference_outputs/msl",
+      "n_points": 73729,
+      "n_windows": 181,
+      "metrics": {
+        "point": {
+          "precision": 0.5014093848449677,
+          "recall": 0.3912031047865459,
+          "f1": 0.4395029431000654
+        },
+        "pa": {
+          "precision": 0.7838060491938331,
+          "recall": 0.8615782664941786,
+          "f1": 0.8208541320022186
+        },
+        "affi": {
+          "precision": 0.8168195006027585,
+          "recall": 0.6451477133314625,
+          "f1": 0.72090431029615
+        }
+      },
+      "avg_f1": 0.660420461799478
+    },
+    {
+      "dataset": "SMD",
+      "run_dir": "inference_outputs/smd",
+      "per_entity": {
+        "machine-1-1": {
+          "dataset": "SMD",
+          "entity": "machine-1-1",
+          "run_dir": "inference_outputs/smd/machine-1-1",
+          "n_points": 28479,
+          "n_windows": 68,
+          "metrics": {
+            "point": {
+              "precision": 0.9070649596965387,
+              "recall": 0.7172853393325834,
+              "f1": 0.8010887772194305
+            },
+            "pa": {
+              "precision": 0.9419263456090652,
+              "recall": 0.9973753280839895,
+              "f1": 0.9688581314878894
+            },
+            "affi": {
+              "precision": 0.9777947983539207,
+              "recall": 0.6115762393916808,
+              "f1": 0.7524939758840054
+            }
+          },
+          "avg_f1": 0.8408136281971084
+        },
+        "machine-2-1": {
+          "dataset": "SMD",
+          "entity": "machine-2-1",
+          "run_dir": "inference_outputs/smd/machine-2-1",
+          "n_points": 23694,
+          "n_windows": 111,
+          "metrics": {
+            "point": {
+              "precision": 0.9030786773090079,
+              "recall": 0.676923076923077,
+              "f1": 0.7738153395212505
+            },
+            "pa": {
+              "precision": 0.9597701149425287,
+              "recall": 0.8564102564102564,
+              "f1": 0.9051490514905148
+            },
+            "affi": {
+              "precision": 0.6727097334079336,
+              "recall": 0.9598371908035769,
+              "f1": 0.7910239040171555
+            }
+          },
+          "avg_f1": 0.8233294316763069
+        },
+        "machine-3-2": {
+          "dataset": "SMD",
+          "entity": "machine-3-2",
+          "run_dir": "inference_outputs/smd/machine-3-2",
+          "n_points": 23703,
+          "n_windows": 46,
+          "metrics": {
+            "point": {
+              "precision": 0.9634433962264151,
+              "recall": 0.7393665158371041,
+              "f1": 0.8366615463389656
+            },
+            "pa": {
+              "precision": 0.9642857142857143,
+              "recall": 0.7574660633484163,
+              "f1": 0.8484541307653319
+            },
+            "affi": {
+              "precision": 0.6600558419999831,
+              "recall": 0.6509308575112018,
+              "f1": 0.6554615930101001
+            }
+          },
+          "avg_f1": 0.7801924233714659
+        },
+        "machine-3-7": {
+          "dataset": "SMD",
+          "entity": "machine-3-7",
+          "run_dir": "inference_outputs/smd/machine-3-7",
+          "n_points": 28705,
+          "n_windows": 68,
+          "metrics": {
+            "point": {
+              "precision": 0.9135802469135802,
+              "recall": 0.511520737327189,
+              "f1": 0.6558345642540621
+            },
+            "pa": {
+              "precision": 1.0,
+              "recall": 0.716589861751152,
+              "f1": 0.8348993288590603
+            },
+            "affi": {
+              "precision": 0.6500803565344987,
+              "recall": 0.9157667949392134,
+              "f1": 0.7603832902799562
+            }
+          },
+          "avg_f1": 0.7503723944643594
+        }
+      },
+      "metrics": {
+        "point": {
+          "precision": 0.9207281339417905,
+          "recall": 0.6566679593170066,
+          "f1": 0.763103314567981
+        },
+        "pa": {
+          "precision": 0.9669765806959499,
+          "recall": 0.8339943839225372,
+          "f1": 0.8903663748586249
+        },
+        "affi": {
+          "precision": 0.7467098492358772,
+          "recall": 0.7828913673119761,
+          "f1": 0.7413966667710925
+        }
+      },
+      "avg_f1": 0.7982887853992328,
+      "weights_n_points": [
+        28479.0,
+        23694.0,
+        23703.0,
+        28705.0
+      ]
+    }
+  ]
+}
